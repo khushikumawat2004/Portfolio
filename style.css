@@ -1,0 +1,105 @@
+body {
+    font-family: Arial, sans-serif;
+    line-height: 1.6;
+    margin: 0;
+    padding: 0;
+    background-color: #f4f4f4;
+}
+
+header {
+    background: linear-gradient(to right, #0a2d0b, #81c784);
+    color: #fff;
+    padding: 1rem 0;
+    text-align: center;
+}
+
+header h1 {
+    margin: 0;
+    font-size: 2.5rem;
+}
+
+header p {
+    margin: 0;
+    font-size: 1.2rem;
+}
+
+section {
+    background: #fff;
+    margin: 1rem;
+    padding: 1rem;
+    border-radius: 5px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+    transition: background-color 0.3s;
+}
+
+h2 {
+    color: #333;
+    border-bottom: 2px solid #134f15;
+    padding-bottom: 0.5rem;
+    cursor: pointer;
+}
+
+h3 {
+    color: #064c08;
+}
+
+ul {
+    list-style-type: none;
+    padding: 0;
+}
+
+li {
+    margin: 0.5rem 0;
+}
+
+footer {
+    background: #09340a;
+    color: #bbb;
+    text-align: center;
+    padding: 1rem 0;
+    position: fixed;
+    width: 100%;
+    bottom: 0;
+}
+
+.content {
+    display: none;
+}
+
+/* Hover effect for sections */
+section:hover {
+    background-color: #e8f5e9;
+}
+
+#projects {
+    background: #f0f8ff; /* Light blue background for contrast */
+    margin: 1rem;
+    padding: 1rem;
+    border-radius: 5px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+}
+
+#projects h2 {
+    color: #005f73; /* Change header color for better visibility */
+    border-bottom: 2px solid #004d61; /* Darker border */
+    padding-bottom: 0.5rem;
+}
+
+#projects ul {
+    list-style-type: none;
+    padding: 0;
+}
+
+#projects li {
+    margin: 1rem 0;
+}
+
+#projects a {
+    text-decoration: none; /* Remove underline from links */
+    color: #0077cc; /* Link color */
+    font-weight: bold;
+}
+
+#projects a:hover {
+    text-decoration: underline; /* Underline on hover for better UX */
+}
